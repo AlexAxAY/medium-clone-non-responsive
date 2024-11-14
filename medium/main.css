@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f7f4ed;
+}
+
+nav {
+  border-bottom: 1px solid black;
+  background-color: #f7f4ed;
+}
+
+.elements {
+  display: flex;
+  justify-content: center;
+}
+
+.elements .header-one {
+  width: 100%;
+  max-width: 1210px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.header-one li {
+  margin-right: 15px;
+  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: light;
+}
+
+li button {
+  background-color: black;
+  color: white;
+  height: 37px;
+  width: 102px;
+  border-radius: 20px;
+  border: none;
+  font-size: 13px;
+  font-weight: 550;
+}
+
+li button:hover {
+cursor: pointer;
+}
+
+.header-one li:first-child {
+  margin-right: auto;
+  font-family: "Playfair Display", serif;
+  color: #121212;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+section {
+  display: flex;
+  flex-grow: 1;
+}
+
+.section-contain {
+  display: flex;
+  flex-grow: 1;
+  height: calc(100vh - 150px);
+}
+
+.major {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0px 0px 150px;
+}
+
+.text h2 {
+  font-size: 114px;
+  font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin: 0px 0px 50px;
+  line-height: 0.9;
+}
+
+.text p {
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px 0px 50px;
+}
+
+.text button {
+  width: 200px;
+  height: 47px;
+  font-size: 20px;
+  border: none;
+  background-color: #121212;
+  color: #f7f4ed;
+  border-radius: 25px;
+}
+
+.text button:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.minor {
+  display: flex;
+  height: 100%;
+  width: 40%;
+  justify-content: end;
+  overflow: hidden;
+}
+
+.minor img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+footer {
+  border-top: 1px solid black;
+  background-color: #f7f4ed;
+}
+
+.footer-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-one li {
+  margin-right: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #6c757d;
+}
